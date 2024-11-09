@@ -58,8 +58,8 @@ export class DonationController {
   //   return this.donationService.update(id, updateDonationDto);
   // }
 
-  @Delete(":id")
-  remove(@Param("id") id: string) {
-    return this.donationService.remove(+id);
-  }
+  // @Delete(":id")
+  // remove(@Param("id") id: string) {
+  //   return this.donationService.remove(+id);
+  // }
 }
